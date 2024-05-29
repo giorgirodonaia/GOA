@@ -21,8 +21,18 @@ user_age = input("please enter your age: ")
 
 
 print(user_firstname + " " + user_lastname + " " + user_age + " " + "წლის" )
-      
-      
+
+
+
+
+
+
+#შევქმნათ ცვლადი სახელად mathers_age და მივანიჭოთ მნიშვნელობა 42
+mathers_age = 42
+#შევქმნათ ცვლადი სახელად fathers_age და მივანიჭოთ მნიშვნელობა 46
+fathers_age = 46
+print(mathers_age + 25)
+print(fathers_age + 25)
 
 
 
