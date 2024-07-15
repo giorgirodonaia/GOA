@@ -167,3 +167,28 @@ print(foods)
 
 foods.clear()
 print(foods)
+
+
+
+
+
+# list = [33,5,6,22,54]
+# list.sort()
+# print(list[0])
+
+# list1 = [66,3, 5,2]
+# list.reverse()
+# print(list1[0])
+
+
+
+# list3 = [5, 4, 22, 5, 9, 2, 3]
+# result = [list3[0], list3[5], list3[6]]
+# print(result)
+
+
+
+# list4 = [3,4]
+# list5 = ["alo," "balo"]
+# list6 = list5[0], list4[0], list5[1], list4[1]
+# print(list6)
