@@ -1,0 +1,15 @@
+div {
+    width: 300px; /* ვაკონტროლებთ სისქეს*/
+    height: 200px; /* ვაკონტროლებთ ზომას*/
+    background-color: black; 
+    border: 5px solid red; /*ზღვარის გასტილვა */
+}
+
+p {
+    color: white;
+    padding: 20px 0px 0px 20px; /* დაშორება ბორდერთან*/
+}
+
+#second-div {
+    margin: 10px; /* დაშორება სხვა ელემენტთან*/
+}
