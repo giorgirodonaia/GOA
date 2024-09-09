@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: Karla;
+}
+
+body {
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 580px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.first_section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.first_section {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 0 0 30px;
+}
+
+.first_section h1 {
+    font-size: 25px;
+    color:hsl(179, 62%, 43%)
+}
+
+#day {
+    color:hsl(71, 73%, 54%)
+}
+
+#Gain {
+    color:hsl(218, 22%, 67%)
+}
+
+div {
+    padding-left: 10px;
+}
+
+.second_section {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    padding-left: 40px;
+}
+
+.second_section p, h2 {
+    color: white;
+}
+
+.second_section h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.second_section p {
+    font-size: 12px;
+}
+
+p b {
+    font-size: 35px;
+    
+}
+
+p span {
+    color: hsl(218, 22%, 67%);
+
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.185);
+    border-radius: 3px;
+
+}
+
+.third_section {
+    background-color:hsla(179, 55%, 53%, 0.74);
+    padding-left: 40px;
+}
+
+.third_section h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.third_section p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.774);
+}

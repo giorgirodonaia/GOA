@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    height: 452px;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+
+img {
+    position: relative;
+    top: 2px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.s_div {
+    padding: 20px;
+    background-color: white;
+    height: 450px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.s_div h2 {
+    font-family: Fraunces;
+    font-size: 35px;
+}
+
+.s_div h1 {
+    font-size: 18px;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+}
+
+
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat; 
+    font-size: 14px;
+    font-weight: 800px;
+}
+
+.m {
+    position: relative;
+}
+
+#fm {
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Fraunces;
+}
+
+#sm {
+    position: absolute;
+    left: 150px;
+    top: -5px;
+    text-decoration: line-through;
+}
+
+
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 80%;
+    position: relative;
+    left: 20px;
+    bottom: 17px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: Montserrat;
+}
