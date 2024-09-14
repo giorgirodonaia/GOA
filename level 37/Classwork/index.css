@@ -1,0 +1,70 @@
+.parent {
+    padding: 50px
+}
+
+.first_div {
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.first_div:hover {
+    transform: translate(50px -50px);
+}
+
+.first_div:active {
+    transform: translate(-50px 50px)
+}
+
+.second_div {
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.second_div:hover {
+    margin-bottom: 30px;
+    transform: scale(2)
+}
+
+.second_div:active {
+    transform: scale(0.5)
+}
+
+.rd_div {
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.rd_div:hover {
+    transform: rotate(45deg)
+}
+
+.rd_div:active {
+    transform: rotate(-45deg)
+}
+
+.fourst_div {
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.fourst_div:hover {
+    transform: rotate(45deg) ;
+    transform: scale(1.5);
+    transform: translate(50px, 30px)
+}
+
+.fiveth_div {
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.first_div:hover {
+    transform: scale(2);
+    transform: rotate(30px);
+    transform: scale(1.5) rotate(45deg) translate(100px)
+}
