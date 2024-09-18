@@ -1,0 +1,22 @@
+div {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    transition-property: background-color, transform; /*მნიშვნელობები რომლის შეცვლა მინდა */ 
+     transition-duration: 1s; /*შეცვალის დრო */
+    transition-timing-function: ease-out; /*დროის ღერძის ფუნქცია */
+    transition-delay: 0.25s; /*რმადენ რდოის მერე მოხდეს შეცვლა */
+    transition: background-color 1s ease-out 0.25s
+                transform 1s ease-out 0.25s;
+}
+
+div:hover {
+    background-color: blue;
+    transform: translate(200px);
+}
+
+/* ease სწრაფი დასაწყილი შიაში ჩქარა და მელე ისევ ნელა  */
+/*linear ერთი და იგივე სიჩქარე თავიდან ბოლომდე */
+/*ease-in ნელი დაწყება და ჩქარი დამთავრება  */
+/*ease-out ჩქარუ დაწყება და ნელი დამთავრება */
+/*ease-in-out ნელი დასაწყისი და დასასრული */
