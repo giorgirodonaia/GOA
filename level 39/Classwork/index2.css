@@ -1,0 +1,25 @@
+:root {
+    --divebis-feri: blue;
+}
+/* root-ის დახმარებით ვქმნით ცვლადს სადაც ვინახავთ მნიშვნელობებს და ეს მნიშვნელობები შეგვიძლია გმოვიყენთ მომავალში */
+
+
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: var(--divebis-feri)
+}
+
+.child_1 {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+}
+
