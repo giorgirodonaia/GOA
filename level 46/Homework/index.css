@@ -1,0 +1,136 @@
+:root {
+    --modern-color: orange;
+    --elements-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+header {
+    display: flex;
+    justify-self: center;
+    gap: 15rem;
+}
+
+h1 {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+nav {
+    margin-top: 2%;
+}
+
+a {
+    margin-top: 3%;
+    padding: 0 2rem 0 2rem;
+    text-decoration: none;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.6);
+    transition: font-weght 2s;
+}
+
+a:hover {
+    transition: 0.7s;
+    font-weight: bold;
+    color: black
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 1%;
+    width: 10vh;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+}
+
+button:active {
+    transition: 0.5s;
+    color: var(--modern-color);
+    background-color: var(--elements-color);
+    border-radius: 10px;
+}
+
+@media (max-width: 2500px) {
+    header {
+        gap: 40rem;
+    }
+}
+
+@media (max-width: 2000px) {
+    header {
+        gap: 25rem;
+    }
+}
+
+@media (max-width: 1560px) {
+    header {
+        gap: 20rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    header {
+        gap: 17rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    header {
+        gap: 10rem
+    }
+}
+
+@media (max-width: 1080px) {
+    header {
+        gap: 6rem
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 854px) {
+    header {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 810px) {
+    header {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    a {
+        padding: 0 5px 0 5px
+    }
+
+    button {
+        font-weight: bold;
+        margin-left: 40%;
+    }
+}

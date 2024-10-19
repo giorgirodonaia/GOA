@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    width: 50vw;
+    background-color: blue;
+}
+
+div {
+    aspect-ratio: 1/1;
+    
+}
+
+.child1 {
+    width: 50%;
+    background-color: red;
+}
+
+.child2 {
+    width: 50%;
+    background-color: aqua;
+}
