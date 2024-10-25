@@ -1,0 +1,105 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+}
+
+.curcle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.rectangle {
+    width: 170px;
+    height: 120px;
+    background-color: red;
+}
+
+/* .triangle {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid red;
+    background-color: red;
+} */
+
+.pentagon {
+    width: 170px;
+    height: 120px;
+    background-color: red;
+    clip-path: polygon(51% 0, 100% 44%, 75% 100%, 25% 100%, 0 44%);
+}
+
+.oval {
+    width: 190px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.star {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/* .moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.moon::after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 50px;
+    z-index: 10px;
+} */
+
+.heart::after,
+.heart::before {
+    content: "";
+    width: 60px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.heart::before {
+    transform: rotate(45deg);
+}
+
+.heart::after {
+    transform: rotate(-45deg);
+}
