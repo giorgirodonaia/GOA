@@ -68,7 +68,7 @@ body {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
-/* .moon {
+.moon {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -80,26 +80,28 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: black;
-    position: relative;
-    left: 50px;
+    background-color: white;
+    position: absolute;
+    left: 640px;
     z-index: 10px;
-} */
+}
 
 .heart::after,
 .heart::before {
     content: "";
     width: 60px;
     height: 100px;
-    position: relative;
+    position: absolute;
     background-color: red;
-    border-radius: 50%;
+    border-radius: 50% 50% 0% 0%;
 }
 
 .heart::before {
-    transform: rotate(45deg);
+    left: 100px;
+    transform: rotate(50deg);
 }
 
 .heart::after {
-    transform: rotate(-45deg);
+    left: 60px;
+    transform: rotate(-50deg);
 }
