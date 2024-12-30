@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(165, 42, 42, 0.842);
+
+}
+
+img {
+    margin: 100px 0 0 500px;
+    border-radius: 50%;
+}
+
+img:active {
+    transform: scale(0.5)
+}
