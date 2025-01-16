@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: Karla;
+}
+
+body {
+    background: hsl(206, 47%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 580px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.329);
+}
+
+.section1 {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-color: hsl(204, 43%, 93%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 0 0 30px;
+}
+
+.section1 h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+}
+
+.section1 h2 {
+    font-size: 18px;
+    color: hsl(71, 73%, 54%);
+}
+
+.section1 p {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+.section2 {
+    background: hsl(179, 62%, 43%);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+}
+
+.section2 h2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 18px;
+
+}
+
+.section2 p b {
+    font-size: 35px;
+    color: white;
+}
+
+.section2 p span {
+    position: relative;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#p2 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.section2 button {
+    width: 85%;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    box-shadow: 1px 1px 3px grey;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    top: 10px
+}
+
+.section3 {
+    background-color: hsl(179, 47%, 52%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.section3 h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.section3 p {
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 15px;
+}
+
+@media (max-width: 450px) {
+    .parent {
+        grid-template-columns: 1rf 1rf 1rf;
+        grid-template-rows: 1rf 1rf 1rf;
+        width: 0;
+        height: 0;
+    }
+
+    .section1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 400px;
+        height: 300px;
+    }
+
+    .section2 {
+        grid-row-start: 3;
+        grid-row-end: 5;
+        border-radius: none;
+    }
+
+    .section3 {
+        grid-row-start: 5;
+        grid-row-end: 5;
+        border-radius: none        
+    }
+}

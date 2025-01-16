@@ -56,3 +56,38 @@ const matrix = [
 ];
 
 processMatrix(matrix);
+
+
+function func(matrix1){
+    console.log("row:")
+    for(let i = 0; i < matrix1.length; i++){
+        console.log(matrix1[i])
+    }
+    console.log("columns:")
+    for(let i = 0; i < matrix1.length; i++){
+        let col = []
+        for(let j = 0; j < matrix1.length; j++){
+            col.push(matrix1[j][i])
+        }
+        console.log(col)
+    }
+    console.log("diagonals:")
+    let diagonal1 = []
+    let diagonal2 = []
+    for(let i = 0; i < matrix1.length; i++){
+        diagonal1.push(matrix1[i][i])
+        diagonal2.push(matrix1[i][matrix1.length - 1 - i])
+    }
+    console.log(diagonal1)
+    console.log(diagonal2)
+    
+    
+}
+
+let arr1 = [
+           [1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]
+    ]
+
+console.log(func(arr1))
