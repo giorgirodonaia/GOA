@@ -26,7 +26,10 @@ let objArr = [
     },
 ]
 
-console.log(objArr[0])
-console.log(objArr[1])
-console.log(objArr[2])
-console.log(objArr[3])
+for(let i = 0; i < objArr.length; i++){
+    console.log("------")
+    console.log(`name: ${objArr[i].name}`)
+    console.log(`age: ${objArr[i].age}`)
+    console.log(`age: ${objArr[i].height}`)
+    console.log(`age: ${objArr[i].gender}`)
+}
