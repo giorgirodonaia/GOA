@@ -12,8 +12,8 @@ console.log(func1(userInput))
 
 
 function sumOfDigit(number){
-    sum = 0
-    nums = String(number)
+    let sum = 0
+    let nums = String(number)
     for(let i = 0; i < nums.length; i++){
         sum += Number(nums[i])
     }
